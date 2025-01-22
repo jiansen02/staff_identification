@@ -7,11 +7,11 @@ Setting Up the Environment
 
    python -m venv venv
 3) Activate the Virtual Environment:
-- On macOS/Linux (in bash terminal type):
+- On macOS/Linux (in bash terminal type as follows):
 
 source venv/bin/activate
 
-- On Windows (in terminal type):
+- On Windows (in terminal type as follows):
 
 venv\Scripts\activate
 
@@ -19,6 +19,7 @@ venv\Scripts\activate
 
 pip install -r requirements.txt
 
+5) Run the mainfunction.py file
 
 Summary of code below:
 1) This program detects staff wearing tags in a video by comparing each frame to multiple pre-loaded reference images. 
